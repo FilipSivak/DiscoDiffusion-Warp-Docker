@@ -1,7 +1,7 @@
 # Disco Diffusion Docker
 This is a fork of https://github.com/Sxela/DiscoDiffusion-Warp allowing to run the models locally outside of Google Collab on Windows and Linux machines. The following instructions are focused on Windows.
 
-## Pre-requisities
+## Prerequisites
 - docker https://docs.docker.com/desktop/install/windows-install/
 - WSL2 https://learn.microsoft.com/en-us/windows/wsl/install
 - tested on windows 21H2 (you can find out your windows version by running `winver` command)
