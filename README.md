@@ -1,3 +1,23 @@
+# Disco Diffusion Docker
+This is a fork of https://github.com/Sxela/DiscoDiffusion-Warp allowing to run the models locally outside of Google Collab on Windows and Linux machines. The following instructions are focused on Windows.
+
+## Pre-requisities
+- docker https://docs.docker.com/desktop/install/windows-install/
+- WSL2
+- tested on windows 21H2 (you can find out your windows version by running `winver` command)
+
+## How to build docker image
+1. go to the folder `docker`
+2. run `docker build . -t disco-diffusion-docker`
+
+## How to run docker image
+Given that your path to this cloned repository is `C:\repos\DiscoDiffusion-Warp-Docker`, run following command in WSL:
+```
+docker run -it --rm --gpus=all -v /mnt/c/repos/DiscoDiffusion-Warp-Docker:/notebooks -p 8888:8888 disco-diffusion-docker
+```
+
+Original README follows.
+
 # Disco Diffusion v5.2 - WarpFusion
 
 [![Disco Diffusion v5.2 - Warp](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Sxela/DiscoDiffusion-Warp/blob/main/Disco_Diffusion_v5_2_Warp.ipynb)
