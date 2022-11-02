@@ -3,7 +3,7 @@ This is a fork of https://github.com/Sxela/DiscoDiffusion-Warp allowing to run t
 
 ## Pre-requisities
 - docker https://docs.docker.com/desktop/install/windows-install/
-- WSL2
+- WSL2 https://learn.microsoft.com/en-us/windows/wsl/install
 - tested on windows 21H2 (you can find out your windows version by running `winver` command)
 
 ## How to build docker image
