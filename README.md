@@ -106,7 +106,7 @@ blend_mode:
 This is a variation of the awesome [DiscoDiffusion colab](https://colab.research.google.com/github/alembics/disco-diffusion/blob/main/Disco_Diffusion.ipynb#scrollTo=Changelog)
 
 If you like what I'm doing you can check my linktree
-- follow me on [twitter](https://twitter.com/devdef)
-- tip me on [patreon](https://www.patreon.com/sxela) 
+- follow author of Disco Diffusion Warp on [twitter](https://twitter.com/devdef)
+- tip author of Disco Diffusion Warp on [patreon](https://www.patreon.com/sxela) 
 
 Thank you for being awesome!
